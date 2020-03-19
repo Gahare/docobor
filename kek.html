@@ -1,15 +1,22 @@
 <html>
-<body>
-Введите данные для заполнения
-<form action="scrapedtest.php" method="post">
-Имя: <input type="text" name="name"><br>
-Фамилия: <input type="text" name="famil"><br>
-Отчество: <input type="text" name="otche"><br>
-Телефон: <input type="text" name="phone"><br>
-Пол: <input type="radio" name="gender" id="choise1" value="М">М
-<input type="radio" name="gender" id="choise2" value="Ж">Ж<br>
-<input type="submit">
-</form>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styleProject.css"> 
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="loginbox">
+            <img src="logoPolytech.png" class="logo">
+            
+            <form action="scrapedtest.php" method="post">
+            Имя<input type="text" name="name" class="info"><br><br>
+            Фамилия<input type="text" name="famil" class="info"><br><br>
+            Отчество<input type="text" name="otche" class="info"><br><br>
+            Телефон<input type="text" name="phone" class="info"><br><br>
+            Пол: М/Ж &nbsp; <input type="radio" name="gender" id="choise1" value="М" class="gender"">
+            <input type="radio" name="gender" id="choise2" value="Ж" class="gender" ><br><br>
+            <input type="submit">
+            </form>
+        </div>
 
-</body>
+    </body>
 </html>
